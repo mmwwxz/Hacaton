@@ -1,9 +1,12 @@
+import Layout from './components/Layout/Layout.tsx';
+import AppRouter from './routes/AppRouter';
+
 const App = () => {
   return (
-    <div>
-     App
-    </div>
-    )
-}
+    <Layout>
+      <AppRouter />
+    </Layout>
+  );
+};
 
-export default App
+export default App;
