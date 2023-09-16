@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './HeroMolecules.module.css';
+import styles from './HeroMolecules.module.scss';
 
 export const HeroMolecules: FC = () => {
   return (
