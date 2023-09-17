@@ -4,7 +4,7 @@ import logo from '/logo.svg';
 
 export const HeaderOrganism: FC = () => {
   const Links = [
-    { name: 'About', link: '/' },
+    { name: 'Blog', link: '/blog' },
     { name: 'Articles', link: '/' },
     { name: 'For Business', link: '/' },
     { name: 'Showcase', link: '/' },
